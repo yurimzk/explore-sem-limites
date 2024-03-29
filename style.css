@@ -25,12 +25,41 @@ body {
   background-color: var(--bg-white);
 }
 
-h1, h2 {
+h2, h3 {
   color: var(--pink);
+  font-weight: 900;
+}
+
+h2 {
+  font-size: 3.2rem;
+}
+
+h3 {
+  font-size: 2.9rem;
 }
 
 p {
   color: var(--dark-blue);
+}
+
+#header {
+  text-align: center;
+}
+
+#header h2 {
+  margin-top: 1.7rem;
+}
+
+#header p {
+  margin-top: .5rem;
+  font-size: 2.0rem;
+  font-weight: 600;
+}
+
+#header .arrow {
+  width: 59px;
+  height: 105px;
+  margin: 3.5rem 0 9.3rem;
 }
 
 #content {
@@ -45,18 +74,21 @@ p {
   padding: 2.6rem;
 }
 
-.card h2 {
+.card h3 {
   margin-top: 3.3rem;
 }
 
 .card p {
   margin-top: 2.0rem;
   text-align: left;
+  font-weight: 600;
   padding-right: 3.3rem;
 }
 
 footer {
   color: hsl(0, 0%, 100%);
   text-align: center;
+  font-size: 1.9rem;
+  font-weight: 600;
   padding: 1.6rem;
 }
