@@ -6,8 +6,13 @@
 
 :root {
   font-size: 62.5%;
+
+  --pink: hsl(320, 69%, 42%);
+  --dark-blue: hsl(244, 38%, 28%);
+  --white: hsl(283, 47%, 97%);
 }
 
 body {
   font-family: 'Mulish', sans-serif;
+  font-size: 1.6rem;
 }
