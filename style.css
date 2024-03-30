@@ -123,8 +123,13 @@ fieldset {
 }
 
 #contact .form-name, #contact .form-email {
-  padding: 1.2rem 1.6rem 1.2rem 4.0rem;
+  padding: 1.2rem 1.6rem 1.2rem 4.4rem;
   line-height: 100%;
+}
+
+#contact textarea {
+  padding: 1.2rem 1.6rem 1.6rem 1.6rem;
+  text-align: left;
 }
 
 .input-with-icon {
@@ -142,6 +147,20 @@ fieldset {
 
 #contact textarea {
   line-height: 140%;
+}
+
+.btn-submit {
+  border-radius: 1.6rem;
+  border: solid 1px var(--dark-blue);
+  background-color: var(--dark-blue);
+  color: #FFFFFF;
+  padding: 1.6rem;
+  font-size: 1.4rem;
+  line-height: 2.4rem;
+  font-family: 'Mulish', sans-serif;
+  font-weight: 700;
+  text-align: center;
+  margin-right: 19.1rem;
 }
 
 footer {
