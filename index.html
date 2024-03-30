@@ -6,7 +6,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Explore sem limites</title>
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" type="text/css" href="style.css" />
     <link
       href="https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap"
       rel="stylesheet"
@@ -61,27 +61,37 @@
         <h2>Entre em contato</h2>
         <form action="" method="POST" id="form">
           <fieldset>
-            <label for="name">Your name</label>
-            <input
-              type="text"
-              name="name"
-              id="name"
-              value="Seu nome"
-              class="form form-name"
-            />
+            <label for="name" class="sr-only">Your name</label>
+            <div class="input-with-icon">
+              <img
+                src="./images/person.png"
+                alt="person icon"
+                class="person-icon"
+              />
+              <input
+                type="text"
+                name="name"
+                id="name"
+                value="Seu nome"
+                class="form form-name"
+              />
+            </div>
           </fieldset>
           <fieldset>
-            <label for="email">Email</label>
-            <input
-              type="email"
-              name="email"
-              id="email"
-              value="Email"
-              class="form form-email"
-            />
+            <label for="email" class="sr-only">Email</label>
+            <div class="input-with-icon">
+              <img src="./images/at.png" alt="email icon" class="at-icon" />
+              <input
+                type="email"
+                name="email"
+                id="email"
+                value="Email"
+                class="form form-email"
+              />
+            </div>
           </fieldset>
           <fieldset>
-            <label for="text">Digite sua mensagem aqui</label>
+            <label for="text" class="sr-only">Digite sua mensagem aqui</label>
             <textarea
               name="text"
               id="text"
@@ -92,7 +102,7 @@
               Digite sua mensagem aqui...</textarea
             >
           </fieldset>
-          <input type="sumbmit" name="submit" value="Enviar Mensagem" />
+          <button>Eviar Mensagem</button>
         </form>
       </div>
     </div>
