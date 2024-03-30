@@ -14,7 +14,7 @@
   </head>
   <body>
     <div id="app">
-      <div id="header" class="bg-white">
+      <header class="bg-white">
         <img
           src="./images/g8.png"
           alt="astronaut floating in space with planets"
@@ -26,7 +26,7 @@
           alt="Arroz pointing down"
           class="arrow"
         />
-      </div>
+      </header>
       <div id="content" class="bg-dark-blue">
         <div class="card bg-white planet-1">
           <img src="./images/image 11971.png" alt="Orange planet" />
@@ -59,9 +59,41 @@
       </div>
       <div id="contact" class="bg-white">
         <h2>Entre em contato</h2>
-        <input type="text" name="" id="" />
-        <input type="email" name="" id="" />
-        <textarea name="" id="" cols="30" rows="10"></textarea>
+        <form action="" method="POST" id="form">
+          <fieldset>
+            <label for="name">Your name</label>
+            <input
+              type="text"
+              name="name"
+              id="name"
+              value="Seu nome"
+              class="form form-name"
+            />
+          </fieldset>
+          <fieldset>
+            <label for="email">Email</label>
+            <input
+              type="email"
+              name="email"
+              id="email"
+              value="Email"
+              class="form form-email"
+            />
+          </fieldset>
+          <fieldset>
+            <label for="text">Digite sua mensagem aqui</label>
+            <textarea
+              name="text"
+              id="text"
+              cols="30"
+              rows="10"
+              class="form form-text"
+            >
+              Digite sua mensagem aqui...</textarea
+            >
+          </fieldset>
+          <input type="sumbmit" name="submit" value="Enviar Mensagem" />
+        </form>
       </div>
     </div>
   </body>
