@@ -87,6 +87,12 @@ header .arrow {
 
 #contact {
   padding: 7.8rem 3.9rem 6.5rem 4.0rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.bg-img-contact {
+  display: none;
 }
 
 form {
@@ -186,6 +192,21 @@ footer {
     padding: 3.2rem 1.3rem 7.2rem 3.2rem;
   }
 
+  #contact {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 9.2rem;
+    padding: 0;
+  }
 
+  .contact-form {
+    width: 59.5rem;
+    padding-left: 10.9rem;
+  }
 
+  .bg-img-contact {
+    display: block;
+    height: 100%;
+  }
 }
