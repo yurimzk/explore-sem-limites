@@ -179,7 +179,33 @@ footer {
 
 @media (min-width: 1440px) {
   header {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+  }
 
+  .header-content {
+    text-align: left;
+    padding: 31.2rem 2.8rem 13.6rem 10.9rem;
+  }
+
+  header h2 {
+    font-size: 5.8rem;
+    font-weight: 900;
+  }
+
+  header p {
+    font-size: 3.2rem;
+    font-weight: 600;
+  }
+
+  header .arrow {
+    margin-top: 17.9rem
+  }
+
+  header img {
+    width: 71.9rem;
+    height: 73.2rem;
   }
 
   #content {
