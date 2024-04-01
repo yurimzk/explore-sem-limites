@@ -172,5 +172,20 @@ footer {
 }
 
 @media (min-width: 1440px) {
+  header {
+
+  }
+
+  #content {
+    flex-direction: row;
+    gap: 6.0rem;
+    padding: 6.4rem 11.1rem;
+  }
+
+  .card {
+    padding: 3.2rem 1.3rem 7.2rem 3.2rem;
+  }
+
+
 
 }
